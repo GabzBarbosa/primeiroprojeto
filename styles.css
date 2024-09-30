@@ -13,6 +13,11 @@ header {
 h1 {
     background-color: #d1ab01;
     border-radius: 10px;
-    
 
 }
+
+navbar {
+    backgroun-color: #d1ab01;
+    border-raduius: 5px;
+}
+
