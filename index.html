@@ -5,30 +5,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gerenciador de Tarefas</title>
+    <linl rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <Header>Gerenciador de Tarefas</Header>
-    <h1>Entrada Tarefas</h1>
-    <nav>Tarefas</nav>
-    <nav>Tarefas Prioritarias</nav>
-    <nav>Tarefas Concluidas</nav>
-    <button dropdown>Tarefas</button>
-    <button>Nova Tarefa</button>
-    <button>Priorizar Tarefa</button>
-    <button>Projetos</button> 
-        <article>
-            <h2>Tarefas Prioritarias</h2>
-                <section class="tarefasPrioridade"></section>
-            <h3>Tarefas Pendentes</h3>    
-                <section class="tarefasPendentes"></section>
+    <Header>
+        <img src="" alt="Logo" width=100" height=100">Gerenciador de Tarefas</Header>
+    <label for="Tasks">Menu</label>label>
+        <select id="Tasks" name="Tasks">
+            <option value="menu">Menu</option>
+            <option value="tarefasPendentes">Tarefas Pendentes</option>
+            <option value="tarefasConcluidas">Tarefas Concluidas</option>
+    <h1>Cadastro de Tarefas</h1>
+            <div class="container">
+                <input class="list-tasks" placeholder="Descreva sua tarefa:">
+                <button class="button-add-task">Adicionar</button>
 
-
-            </article>
-            <aside>
-                <aside class="tarefasConcluidas"></aside>
-                <ul>Lista</ul>
-            </aside>
+                <ul class="list-tasks">
+                </ul>
+            </div>
+        </select>
+    
 </body>
 
 </html>
