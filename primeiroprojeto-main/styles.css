@@ -37,6 +37,7 @@ div.sizebar{
 
 
 section{
+  display: grid;
     padding: 20px;
     width: auto;
 }
