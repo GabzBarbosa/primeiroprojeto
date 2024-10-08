@@ -13,7 +13,7 @@ body {
     padding:0;
     justify-content: center;
     align-items: center;
-  
+
 }
 
 header{
@@ -21,21 +21,13 @@ header{
     background-color: blueviolet;
     image-orientation: flip;
     color: antiquewhite;
-    display: grid;
     
 }
-header img{
+header.img{
     border-radius: 50px;
 
 }
 
-section img {
-    margin: none;
-    width: 1350px;
-    height: 100px;
-
-        
-}
 
 div.sizebar{
     padding: 20px;
@@ -45,6 +37,7 @@ div.sizebar{
 
 
 section{
+  display: grid;
     padding: 20px;
     width: auto;
 }
